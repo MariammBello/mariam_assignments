@@ -14,33 +14,58 @@
     <meta name="author" content="MariammBello"/>
     <link rel="stylesheet" href="assets/styles/index.css"> <!-- External CSS file -->
 </head>
-<header id="top">
-    <nav class="main-navigation" aria-label="Main Navigation">
-        <a href="" aria-current="page">About me Home</a>
-        <a href="form.html">Application Form</a>
-        <a href="media.html">Media</a>
-        <a href="table.html">Altschool Programs</a>
-    </nav>
-    <h2 class="center-text">About Me - Altschool ID: ALT/SOE/024/1275</h2>
-</header>
 <body>
+    <header id="top">
+        <nav class="main-navigation" aria-label="Main Navigation">
+            <a href="index.html">About me Home</a>
+            <a href="form.html">Application Form</a>
+            <a href="" aria-current="page">Media</a>
+            <a href="table.html">Altschool Programs</a>
+        </nav>
+        <h2 class="center-text">About Me - Featuring Media</h2>
+    </header>
     <main>
         <div class="content-wrapper">
             <img src="assets/images/Acttotechgirl.webp" alt="Image of Mariam's avatar" class="responsive-image">
+            
             <section class="about-section">
-                <div class="about-content">
-                    <h4>This is an About me page for Altschool <a href="https://karatu.oluwasetemi.dev/114">Assignment 1A</a></h4>
-                    <p>My name is Mariam Bello, an Actuary and Financial Investment consultant. I'm passionate about change and knowledge acquisition, so I have opted for the Altschool Africa program to explore cloud engineering. I love to document and write about my journey, so in my free time, I create study and learning content on finance on my Blog and YouTube. My main goal is to be really good at this really!</p>
+                <table>
+                    <tr>
+                <td colspan="2">
+                <div class="media-content">
+                    <h2>Watch One of My Videos on Finance</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hOFuzqYFppQ?si=rHTHJT50CJYOfz8X" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
                 </div>
-                <div class="list-content">
-                    <a href="https://karatu.oluwasetemi.dev/114"><h3>List of my assignments</h3></a>
-                    <ol>
-                        <li><a href="#">About me, Including Alt School ID, Bio, and any relevant information</a></li>
-                        <li><a href="form.html">Replica of Altschool application form</a></li>
-                        <li><a href="media.html">An about me page with media elements</a></li>
-                        <li><a href="table.html">A Table of Altschool courses</a></li>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="project-content">
+                            <a href="https://azureresumemariamacg.z33.web.core.windows.net/"><h2>Current Project</h2></a>
+                            <img src="assets/images/cloud_resume_home_page.png" alt="Project Snippet" width="220">
+                        </div>
+                    </td>
+                    <td>
+                    <div class="book-content">
+                        <h2>Current Book</h2>
+                        <img src="assets/images/PhoenixProject.jpg" alt="Image of Mariam's avatar">
 
-                    </ol>
+                    </div>
+                    </td>
+
+                    </tr>
+                </table>
+                <div class="media-content">
+                    <h3>Here is an audio</h3>
+                    <audio controls>
+                        <source src="assets/audio/sound.wav" type="audio/wav">
+                        <source src="assets/audio/sound.wav" type="audio/mpeg">
+                        <source src="assets/audio/sound.wav" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
                 </div>
                 <br>
                 <div class="center-text">
@@ -61,6 +86,7 @@
                     <a href="#top" class="back-to-top">Back to Top</a>
                 </div>
             </section>
+            
         </div>
     </main>
 </body>

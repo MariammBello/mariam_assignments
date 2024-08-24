@@ -1115,4 +1115,34 @@ img.style_image_eyuRU {
     }
     
 
-    
+    /* Form Header Styles */
+header {
+    text-align: center;
+    background-color: #468fe3;
+    padding: 10px;
+    color: white;
+}
+
+.center-text-form {
+    text-align: center;
+}
+
+/* Navigation Styles */
+.main-navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #4691e7;
+    padding: 10px;
+}
+
+.main-navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.main-navigation a:hover {
+    background-color: #3b0aeb;
+}
