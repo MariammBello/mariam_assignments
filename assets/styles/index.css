@@ -97,13 +97,13 @@ header {
 /* Flex Container for Projects*/
 .flex-container {
     display: flex;
-    flex-direction: column; /* Default for mobile */
+    flex-direction: column;
     gap: 20px;
 }
 
 @media (min-width: 768px) {
     .flex-container {
-        flex-direction: row; /* Row for larger screens */
+        flex-direction: row; 
         justify-content: space-between;
     }
 }
