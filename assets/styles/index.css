@@ -17,6 +17,8 @@ header {
 
 .center-text {
     text-align: center;
+    margin-bottom: 10px;
+    
 }
 
 /* Navigation Styles */
@@ -227,4 +229,17 @@ tbody tr:hover {
     .project-image, .book-image {
         max-width: 100%;
     }
+}
+/* Footer Bottom Styles */
+.footer-bottom {
+    background-color: #4691e7; 
+    color: #fff; 
+    text-align: center; 
+    padding: 40px 0px; 
+    font-size: 14px; 
+    margin-top: 40px; 
+}
+
+.footer-bottom p {
+    margin: 5px 0;
 }
