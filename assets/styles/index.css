@@ -160,44 +160,65 @@ button:hover {
 }
 
 /* Table Styles */
+/* Table Styles */
 table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: #fff;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    border-radius: 10px;
+    width: 100%; /* Make table width 100% to fit within the screen */
+    max-width: 100%; /* Ensure the table doesn't exceed screen width */
+    margin: 20px auto; /* Center the table horizontally */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    background-color: #fff; /* White background for the table */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Hide overflow */
+    border-radius: 10px; /* Rounded corners for aesthetics */
 }
 
 thead {
-    background-color: #4691e7;
-    color: #fff;
-    text-align: center;
+    background-color: #4691e7; /* Header background color */
+    color: #fff; /* Header text color */
+    text-align: center; /* Center align header text */
 }
 
 thead th {
-    padding: 20px;
+    padding: 20px; /* Padding around header cells */
 }
 
 tbody {
-    text-align: center;
+    text-align: center; /* Center align body text */
 }
 
 tbody td {
-    padding: 15px;
-    border-bottom: 1px solid #ddd;
-    font-size: 16px;
-    margin-bottom: 5px;
+    padding: 15px; /* Padding around body cells */
+    border-bottom: 1px solid #ddd; /* Border at bottom of each cell */
+    font-size: 16px; /* Font size for body text */
+    word-break: break-word; /* Break long words to prevent overflow */
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Alternate row background color */
 }
 
 tbody tr:hover {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; /* Hover effect for table rows */
 }
+
+/* Media Queries for Responsive Design */
+@media (max-width: 767px) {
+    table {
+        width: 100%; /* Ensure table fits the screen */
+        margin: 10px 0; /* Reduce margin for smaller screens */
+        font-size: 14px; /* Decrease font size on smaller screens */
+    }
+
+    thead th, tbody td {
+        padding: 10px; /* Reduce padding for smaller screens */
+        font-size: 12px; /* Smaller font size for table text */
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f9f9f9; /* Subtle color difference for rows */
+    }
+}
+
 
 /* Media Queries for Responsive Design */
 @media (max-width: 767px) {
@@ -245,3 +266,5 @@ tbody tr:hover {
         padding: 10px; 
     }
 }
+
+
