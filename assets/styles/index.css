@@ -243,3 +243,13 @@ tbody tr:hover {
 .footer-bottom p {
     margin: 5px 0;
 }
+@media only screen and (max-width: 600px) {
+    .footer-bottom {
+        padding: 15px 0; 
+        font-size: 12px; 
+    }
+
+    .content-wrapper {
+        padding: 10px; 
+    }
+}
