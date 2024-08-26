@@ -24,7 +24,7 @@ header {
 /* Navigation Styles */
 .main-navigation {
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    flex-wrap: wrap; 
     justify-content: center;
     background-color: #4691e7;
     padding: 10px;
@@ -33,7 +33,7 @@ header {
 .main-navigation a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px; /* Reduced margin for better spacing on small screens */
+    margin: 0 10px; 
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -45,14 +45,14 @@ header {
 /* Content Wrapper */
 .content-wrapper {
     display: grid;
-    grid-template-columns: 1fr; /* Start with one column for smaller screens */
+    grid-template-columns: 1fr; 
     gap: 20px;
     padding: 20px;
 }
 
 @media (min-width: 768px) {
     .content-wrapper {
-        grid-template-columns: 1fr 2fr; /* Two columns for larger screens */
+        grid-template-columns: 1fr 2fr; 
     }
 }
 
@@ -69,7 +69,7 @@ header {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    margin-bottom: 20px; /* Adds space between sections */
+    margin-bottom: 20px; 
     text-align: center;
 }
 
@@ -78,18 +78,10 @@ header {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    margin-bottom: 20px; /* Adds space between sections */
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.book-content {
-    border: 1px solid #ccc;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    margin-bottom: 20px; /* Adds space between sections */
-    text-align: center;
-}
 
 
 /* About Content */
@@ -102,7 +94,7 @@ header {
     font-size: 14px;
 }
 
-/* Flex Container for Projects and Books */
+/* Flex Container for Projects*/
 .flex-container {
     display: flex;
     flex-direction: column; /* Default for mobile */
@@ -124,8 +116,8 @@ header {
     border-radius: 10px;
 }
 
-/* Responsive Project and Book Images */
-.project-image, .book-image {
+/* Responsive Project */
+.project-image {
     width: 100%;
     max-width: 200px;
     height: auto;
